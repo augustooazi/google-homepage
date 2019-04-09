@@ -1,0 +1,64 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  font-size: small;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a:hover {
+  color: ;
+  text-decoration: underline;
+}
+
+.nav {
+  text-align: right;
+}
+
+.search {
+  clear: both;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.button {
+  color: #5f6368;
+  background-color: #F2F2F2;
+  width: 135px;
+  height: 36px;
+  line-height: 27px;
+  margin: 15px 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #F2F2F2;
+  font-size: 14px;
+}
+
+.button:hover {
+  border: 1px solid #C6C6C6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+
+#query {
+  width: 550px;
+  height: 40px;
+  border: 1px solid #DFE1E5;
+  border-radius: 30px;
+  border-style: line  ;
+  margin: 25px 0px;
+  font-size: 16px;
+}
